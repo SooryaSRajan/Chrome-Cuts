@@ -1,0 +1,54 @@
+{
+    "name": "Chrome Cuts",
+    "description": "Chrome Shortcuts for opening webpages",
+    "version": "1.0",
+    "manifest_version": 3,
+    "permissions": [
+        "tabs"
+    ],
+    "background": {
+        "service_worker": "shortcut.js"
+    },
+    "commands": {
+        "shortcut-0": {
+            "suggested_key": {
+                "default": "Ctrl+Shift+1",
+                "windows": "Ctrl+Shift+1",
+                "mac": "Command+Shift+1",
+                "chromeos": "Ctrl+Shift+1",
+                "linux": "Ctrl+Shift+1"
+            },
+            "description": "Shortcut One"
+        },
+        "shortcut-1": {
+            "suggested_key": {
+                "default": "Ctrl+Shift+2",
+                "windows": "Ctrl+Shift+2",
+                "mac": "Command+Shift+2",
+                "chromeos": "Ctrl+Shift+2",
+                "linux": "Ctrl+Shift+2"
+            },
+            "description": "Shortcut One"
+        },
+        "shortcut-2": {
+            "suggested_key": {
+                "default": "Ctrl+Shift+3",
+                "windows": "Ctrl+Shift+3",
+                "mac": "Command+Shift+3",
+                "chromeos": "Ctrl+Shift+3",
+                "linux": "Ctrl+Shift+3"
+            },
+            "description": "Shortcut One"
+        },
+        "shortcut-3": {
+            "suggested_key": {
+                "default": "Ctrl+Shift+4",
+                "windows": "Ctrl+Shift+4",
+                "mac": "Command+Shift+4",
+                "chromeos": "Ctrl+Shift+4",
+                "linux": "Ctrl+Shift+4"
+            },
+            "description": "Shortcut One"
+        }
+    }
+}
